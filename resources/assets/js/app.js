@@ -18,6 +18,12 @@ Vue.use(Buefy);
 var app = new Vue({
   el: '#app',
   data: {
-    
   }
-})
+});
+
+$(document).ready(function(){
+  $('div.navbar-item').hover(function(e){
+    $(this).toggleClass('is-hoverable');
+  });
+  
+});
