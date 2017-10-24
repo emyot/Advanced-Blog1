@@ -996,11 +996,14 @@ var app = new Vue({
   data: {}
 });
 
-$(document).ready(function () {
-  $('div.navbar-item').hover(function (e) {
+/*
+$(document).ready(function(){
+  $('div.navbar-item').hover(function(e){
     $(this).toggleClass('is-hoverable');
   });
+
 });
+*/
 
 /***/ }),
 /* 11 */

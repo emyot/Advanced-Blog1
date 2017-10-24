@@ -21,9 +21,11 @@ var app = new Vue({
   }
 });
 
+/*
 $(document).ready(function(){
   $('div.navbar-item').hover(function(e){
     $(this).toggleClass('is-hoverable');
   });
-  
+
 });
+*/

@@ -13,7 +13,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body class="body-background">
     <div id="app">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand is-active">
@@ -37,7 +37,7 @@
               <a class="navbar-item is-tab" href="{{ route('login') }}">Login</a>
               <a class="navbar-item is-tab" href="{{ route('register') }}">Join the Community</a>
             @else
-              <div class="navbar-item has-dropdown">
+              <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
                   Hello Slacker
                 </a>
@@ -78,7 +78,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
-    
+
     <script type="text/javascript">
       document.addEventListener('DOMContentLoaded', function () {
 
