@@ -5,7 +5,7 @@
 </head>
 <body class="body-background">
 
-  @include('partials.nav._main-nav')
+  @include('partials.nav._manage-nav')
 
     <div id="app">
         @yield('content')
