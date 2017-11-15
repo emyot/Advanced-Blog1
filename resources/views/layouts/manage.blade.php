@@ -7,7 +7,7 @@
 
   @include('partials.nav._manage-nav')
 
-    <div id="app">
+    <div id="app" class="management-area">
         @yield('content')
     </div>
 
